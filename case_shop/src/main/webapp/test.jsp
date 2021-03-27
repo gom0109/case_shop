@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>test</title>
 </head>
 <body>
-ok
-update2
+
 
 </body>
 </html>
