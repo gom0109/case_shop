@@ -5,13 +5,13 @@
 
 <configuration>
 	<typeAliases>
-		<typeAlias type="model.board.Board" alias="Board"/>
-		<typeAlias type="model.category.Category" alias="Category"/>
-		<typeAlias type="model.member.Member" alias="Member"/>
-		<typeAlias type="model.oproduct.Oproduct" alias="Oproduct"/>
-		<typeAlias type="model.orders.Orders" alias="Orders"/>
-		<typeAlias type="model.product.Product" alias="Product"/>
-		<typeAlias type="model.review.Review" alias="Review"/>
+		<typeAlias type="model.board.Board" alias="BoardAlias"/>
+		<typeAlias type="model.category.Category" alias="CategoryAlias"/>
+		<typeAlias type="model.member.Member" alias="MemberAlias"/>
+		<typeAlias type="model.oproduct.Oproduct" alias="OproductAlias"/>
+		<typeAlias type="model.orders.Orders" alias="OrdersAlias"/>
+		<typeAlias type="model.product.Product" alias="ProductAlias"/>
+		<typeAlias type="model.review.Review" alias="ReviewAlias"/>
 	</typeAliases>
 	
 	<mappers>
