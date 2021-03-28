@@ -1,8 +1,8 @@
 package model.board;
 
 public class BoardBean {
-	private int board_num;
-	private int member_num;
+	private int boardNum;
+	private int memberNum;
 	private String subject;
 	private String regDate;
 	private String modDate;
@@ -12,18 +12,17 @@ public class BoardBean {
 	private int reLevel;
 	private String content;
 	private String ip;
-	
-	public int getBoard_num() {
-		return board_num;
+	public int getBoardNum() {
+		return boardNum;
 	}
-	public void setBoard_num(int board_num) {
-		this.board_num = board_num;
+	public void setBoardNum(int boardNum) {
+		this.boardNum = boardNum;
 	}
-	public int getMember_num() {
-		return member_num;
+	public int getMemberNum() {
+		return memberNum;
 	}
-	public void setMember_num(int member_num) {
-		this.member_num = member_num;
+	public void setMemberNum(int memberNum) {
+		this.memberNum = memberNum;
 	}
 	public String getSubject() {
 		return subject;
@@ -79,5 +78,7 @@ public class BoardBean {
 	public void setIp(String ip) {
 		this.ip = ip;
 	}
+	
+	
 	
 }

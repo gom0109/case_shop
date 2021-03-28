@@ -1,15 +1,15 @@
 package model.category;
 
 public class CategoryBean {
-	private int category_num;
+	private int categoryNum;
 	private int code;
-	private String category_name;
+	private String categoryName;
 	
-	public int getCategory_num() {
-		return category_num;
+	public int getCategoryNum() {
+		return categoryNum;
 	}
-	public void setCategory_num(int category_num) {
-		this.category_num = category_num;
+	public void setCategoryNum(int categoryNum) {
+		this.categoryNum = categoryNum;
 	}
 	public int getCode() {
 		return code;
@@ -17,11 +17,13 @@ public class CategoryBean {
 	public void setCode(int code) {
 		this.code = code;
 	}
-	public String getCategory_name() {
-		return category_name;
+	public String getCategoryName() {
+		return categoryName;
 	}
-	public void setCategory_name(String category_name) {
-		this.category_name = category_name;
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
 	}
+	
+
 	
 }

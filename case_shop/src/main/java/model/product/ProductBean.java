@@ -1,7 +1,7 @@
 package model.product;
 
 public class ProductBean {
-	private int product_num;
+	private int productNum;
 	private int category;
 	private String title;
 	private String producer;
@@ -13,11 +13,11 @@ public class ProductBean {
 	private String status;
 	private String promotions;
 	
-	public int getProduct_num() {
-		return product_num;
+	public int getProductNum() {
+		return productNum;
 	}
-	public void setProduct_num(int product_num) {
-		this.product_num = product_num;
+	public void setProductNum(int productNum) {
+		this.productNum = productNum;
 	}
 	public int getCategory() {
 		return category;

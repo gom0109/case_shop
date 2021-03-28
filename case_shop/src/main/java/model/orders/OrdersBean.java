@@ -1,26 +1,27 @@
 package model.orders;
 
 public class OrdersBean {
-	private int order_num; 
-	private int member_num;
+	private int orderNum; 
+	private int memberNum;
 	private String name;
 	private String address;
-    private int phone_num; 
-	private String track_num;
+    private int phoneNum; 
+	private String trackNum;
 	private String status;
 	private int total_price;
 	private int total_point;
-	public int getOrder_num() {
-		return order_num;
+	
+	public int getOrderNum() {
+		return orderNum;
 	}
-	public void setOrder_num(int order_num) {
-		this.order_num = order_num;
+	public void setOrderNum(int orderNum) {
+		this.orderNum = orderNum;
 	}
-	public int getMember_num() {
-		return member_num;
+	public int getMemberNum() {
+		return memberNum;
 	}
-	public void setMember_num(int member_num) {
-		this.member_num = member_num;
+	public void setMemberNum(int memberNum) {
+		this.memberNum = memberNum;
 	}
 	public String getName() {
 		return name;
@@ -34,17 +35,17 @@ public class OrdersBean {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public int getPhone_num() {
-		return phone_num;
+	public int getPhoneNum() {
+		return phoneNum;
 	}
-	public void setPhone_num(int phone_num) {
-		this.phone_num = phone_num;
+	public void setPhoneNum(int phoneNum) {
+		this.phoneNum = phoneNum;
 	}
-	public String getTrack_num() {
-		return track_num;
+	public String getTrackNum() {
+		return trackNum;
 	}
-	public void setTrack_num(String track_num) {
-		this.track_num = track_num;
+	public void setTrackNum(String trackNum) {
+		this.trackNum = trackNum;
 	}
 	public String getStatus() {
 		return status;
@@ -64,4 +65,6 @@ public class OrdersBean {
 	public void setTotal_point(int total_point) {
 		this.total_point = total_point;
 	}
+	
+	
 }

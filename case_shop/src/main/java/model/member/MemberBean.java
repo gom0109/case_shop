@@ -1,21 +1,21 @@
 package model.member;
 
 public class MemberBean {
-	private int member_num;
+	private int memberNum;
 	private String id; 
 	private String password; 
 	private String name; 
-	private int phone_num;
+	private int phoneNum;
 	private String email;
 	private String address; 
 	private String status;
 	private int point;
 	
-	public int getMember_num() {
-		return member_num;
+	public int getMemberNum() {
+		return memberNum;
 	}
-	public void setMember_num(int member_num) {
-		this.member_num = member_num;
+	public void setMemberNum(int memberNum) {
+		this.memberNum = memberNum;
 	}
 	public String getId() {
 		return id;
@@ -35,11 +35,11 @@ public class MemberBean {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPhone_num() {
-		return phone_num;
+	public int getPhoneNum() {
+		return phoneNum;
 	}
-	public void setPhone_num(int phone_num) {
-		this.phone_num = phone_num;
+	public void setPhoneNum(int phoneNum) {
+		this.phoneNum = phoneNum;
 	}
 	public String getEmail() {
 		return email;
@@ -65,6 +65,8 @@ public class MemberBean {
 	public void setPoint(int point) {
 		this.point = point;
 	}
+	
+	
 	
 	
 }
