@@ -1,4 +1,4 @@
-package model.review;
+package review.model;
 
 public class ReviewBean {
 	private int reviewNum;

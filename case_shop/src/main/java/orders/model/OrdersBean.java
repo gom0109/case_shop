@@ -1,4 +1,4 @@
-package model.orders;
+package orders.model;
 
 public class OrdersBean {
 	private int orderNum; 

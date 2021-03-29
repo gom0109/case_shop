@@ -1,4 +1,4 @@
-package model.member;
+package member.model;
 
 public class MemberBean {
 	private int memberNum;
